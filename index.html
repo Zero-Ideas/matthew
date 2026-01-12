@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Book Viewer</title>
+  <script type="module" crossorigin src="/assets/index-rXZP6gjN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-7ohZsV5U.css">
+</head>
+<body>
+    <header>
+        <h1>Comic Book Viewer</h1>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+
+    <main>
+        <div id="comic-container">
+            <div id="page-display-wrapper">
+                <div id="page-display"></div>
+                <div id="arrow-left" class="nav-arrow">&#8249;</div>
+                <div id="arrow-right" class="nav-arrow">&#8250;</div>
+            </div>
+            <div id="slider-container">
+                <input type="range" id="page-slider" min="1" value="1">
+                <div id="page-info">Page <span id="current-page">1</span> / <span id="total-pages">0</span></div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
